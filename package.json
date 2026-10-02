@@ -20,7 +20,7 @@
     "jest:e2e": "jest --testPathPatterns=tests/e2e",
     "jest:coverage": "npx jest --coverage",
     "jest:watch": "jest --watch",
-    "prepare": "husky && npm run build",
+    "prepare": "npm run build",
     "test": "npm run format:check && npm run lint"
   },
   "repository": {
